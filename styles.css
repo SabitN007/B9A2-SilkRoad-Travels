@@ -386,6 +386,7 @@ main {
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px 40px 40px 40px;
+    width: 100%;
 }
 
 .form>input {
@@ -415,28 +416,95 @@ main {
     padding: 14px 170px 14px 170px;
     margin-top: 24px;
 }
-.sub-newslltr-h{
+
+.sub-newslltr-h {
     color: #131318;
-font-size: 1.8rem;
-font-weight: 800;
+    font-size: 1.8rem;
+    font-weight: 800;
 
 }
-.sub-newslltr-p{
+
+.sub-newslltr-p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    padding-bottom: 48px;
+}
+
+.sub-newslltr-img>img {
+    margin-left: 10px;
+    height: 600px;
+    width: 700px;
+    margin-right: 100px;
+}
+
+.travel-save {
+    border-radius: 16px;
+    background: #FF5400;
+    padding-top: 20px;
+    width: 324px;
+    height: 120px;
+    margin-left: 800px;
+    margin-top:-200px;
+   transform: rotate(-25deg);
+}
+
+.travel {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.save {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+/* footer section started */
+
+.fotr{
+   text-align: center;
+   margin-top: 200px;
+
+    
+}
+.fotr-head{
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-bottom: 25px;
+
+}
+.fotr-head >span{
+    color: #FF5400;
+}
+.fotr-p{
     color: #5A5A5D;
 font-size: 16px;
 font-weight: 400;
-border-bottom: 1px solid;
- padding-bottom: 48px;
 }
-.sub-newslltr-img > img{
-   margin-left: 10px;
-   height: 600px;
-   width: 700px;
-   margin-right: 100px;
+.fotr-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 20px;
 }
-
-
-
+hr{
+    margin-top: 50px;
+}
+.allright{
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.sub-ftr > img{
+    margin-left: -350px;
+}
 
 
 
