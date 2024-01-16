@@ -209,8 +209,59 @@ main {
     height: 286px;
 }
 
+.cyd-container-h3 {
+    margin-top: -750px;
+    margin-left: 250px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+.cyd-container-h4{
+    margin-left: 800px;
+    margin-top: -50px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+} 
+.cyd-container-h5{
+    margin-top: 270px;
+    margin-left: 150px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.cyd-container-h6{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 550px;
+    margin-top: -45px;
+}
+.cyd-container-h7{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 970px;
+    margin-top: -45px;
+}
+.cyd-container-h8{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 260px;
+    margin-left: 150px;
+}
+.cyd-container-h9{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 730px;
+    margin-top: -40px;
+}
 
 
+/* chose your destination ends */
 
 
 .whycu {
@@ -373,48 +424,55 @@ main {
     height: 389px;
     margin-left: 55px;
 }
+
 /* perfect place */
-.perfect{
+.perfect {
     margin-bottom: 100px;
     margin-top: -50px;
 }
-.vdo{
+
+.vdo {
     margin-left: 600px;
     margin-top: -550px;
-    border-radius:15px ;
+    border-radius: 15px;
 }
-.perfect-h2{
+
+.perfect-h2 {
     color: #131318;
-font-size: 40px;
-font-weight: 800;
-margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
-.perfect-p{
+
+.perfect-p {
     color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
-margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
-.perfect-sub2 > ul > li{
+
+.perfect-sub2>ul>li {
     color: #131318;
-font-size: 1rem;
-font-weight: 700;
-margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
-.perfect-sub1{
+
+.perfect-sub1 {
     margin-top: 100px;
-}  
+}
 
-.semor{
+.semor {
     border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-font-size: 1.4rem;
-font-weight: 800;
-border: none;
-padding: 14px 42px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 800;
+    border: none;
+    padding: 14px 42px;
 
 }
+
 /* perfect  end */
 
 /* newsletter section desing */
@@ -489,8 +547,8 @@ padding: 14px 42px;
     width: 324px;
     height: 120px;
     margin-left: 800px;
-    margin-top:-200px;
-   transform: rotate(-25deg);
+    margin-top: -200px;
+    transform: rotate(-25deg);
 }
 
 .travel {
@@ -508,16 +566,18 @@ padding: 14px 42px;
     text-align: center;
 
 }
+
 /* newsletter section end */
 /* footer section started */
 
-.fotr{
-   text-align: center;
-   margin-top: 200px;
+.fotr {
+    text-align: center;
+    margin-top: 200px;
 
-    
+
 }
-.fotr-head{
+
+.fotr-head {
     color: var(--Dark-01, #131318);
     font-size: 32px;
     font-weight: 800;
@@ -525,35 +585,41 @@ padding: 14px 42px;
     margin-bottom: 25px;
 
 }
-.fotr-head >span{
+
+.fotr-head>span {
     color: #FF5400;
 }
-.fotr-p{
+
+.fotr-p {
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
-.fotr-img{
+
+.fotr-img {
     display: flex;
     justify-content: center;
     margin-top: 32px;
     gap: 20px;
 }
-hr{
+
+hr {
     margin-top: 50px;
 }
-.allright{
+
+.allright {
     margin-top: 50px;
     margin-bottom: 110px;
 }
-.sub-ftr > img{
+
+.sub-ftr>img {
     margin-left: -350px;
 }
 
 
 
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
         margin: 22px 30px;
     }
@@ -642,4 +708,4 @@ hr{
 .row>img {
     grid-template-columns: repeat(1, 1fr);
 }
-} */
+}
