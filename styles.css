@@ -217,42 +217,48 @@ main {
     font-weight: 800;
 
 }
-.cyd-container-h4{
+
+.cyd-container-h4 {
     margin-left: 800px;
     margin-top: -50px;
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
-} 
-.cyd-container-h5{
+}
+
+.cyd-container-h5 {
     margin-top: 270px;
     margin-left: 150px;
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
 }
-.cyd-container-h6{
+
+.cyd-container-h6 {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
     margin-left: 550px;
     margin-top: -45px;
 }
-.cyd-container-h7{
+
+.cyd-container-h7 {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
     margin-left: 970px;
     margin-top: -45px;
 }
-.cyd-container-h8{
+
+.cyd-container-h8 {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
     margin-top: 260px;
     margin-left: 150px;
 }
-.cyd-container-h9{
+
+.cyd-container-h9 {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
@@ -568,6 +574,25 @@ main {
 }
 
 /* newsletter section end */
+
+.newh2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.newp {
+    text-align: center;
+    font-size: 50px;
+    color: #5A5A5D;
+}
+
+.newp>span {
+    color: #FF5400;
+}
+.img{
+ margin-left: 350px;
+ border-radius: 20px;
+}
 /* footer section started */
 
 .fotr {
