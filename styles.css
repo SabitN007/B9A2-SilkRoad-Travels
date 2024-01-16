@@ -373,6 +373,49 @@ main {
     height: 389px;
     margin-left: 55px;
 }
+/* perfect place */
+.perfect{
+    margin-bottom: 100px;
+    margin-top: -50px;
+}
+.vdo{
+    margin-left: 600px;
+    margin-top: -550px;
+    border-radius:15px ;
+}
+.perfect-h2{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.perfect-p{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.perfect-sub2 > ul > li{
+    color: #131318;
+font-size: 1rem;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.perfect-sub1{
+    margin-top: 100px;
+}  
+
+.semor{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+font-size: 1.4rem;
+font-weight: 800;
+border: none;
+padding: 14px 42px;
+
+}
+/* perfect  end */
 
 /* newsletter section desing */
 .newslltr-sub {
@@ -465,6 +508,7 @@ main {
     text-align: center;
 
 }
+/* newsletter section end */
 /* footer section started */
 
 .fotr{
