@@ -83,6 +83,10 @@ header {
     font-size: 4rem;
     padding: 20px;
 }
+.h-text-title:hover{
+    color: #FF5400;
+    font-size: 5rem;
+}
 
 .h-text-details {
     color: #FFF;
@@ -574,6 +578,11 @@ main {
 }
 
 /* newsletter section end */
+.new{
+    background: rgba(7, 186, 231, 0.09);
+    border-radius: 16px;
+    padding: 15px;
+}
 
 .newh2 {
     text-align: center;
@@ -592,6 +601,27 @@ main {
 .img{
  margin-left: 350px;
  border-radius: 20px;
+}
+.img:hover{
+    width: 700px;
+}
+.new-details{
+    font-size: 25px;
+    text-align: center;
+
+}
+.link > a{
+    text-decoration: none;
+    color: #5A5A5D;
+}
+.link > a:hover{
+    
+    color: #FF5400;
+    height: 50px;
+}
+.link{
+    text-align: center;
+    font-size: 22px;
 }
 /* footer section started */
 
