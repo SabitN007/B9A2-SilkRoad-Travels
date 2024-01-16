@@ -244,32 +244,123 @@ main {
     background: rgba(251, 181, 99, 0.05);
     width: 573px;
     height: 200px;
-    padding: 32px ;
-}
-.sub-dtls1{
-    margin-top: 50px;
-    margin-bottom: 20px;
-    
+    padding: 32px;
 }
 
-.sub-dtls2{
-    border-radius: 16px;
-    width: 573px;
-    height: 200px;
-    padding: 32px ;
-    border-radius: 16px;
-background: rgba(41, 206, 246, 0.05);
+.sub-dtls1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
 }
-.sub-dtls4{
+
+.sub-dtls2 {
+    border-radius: 16px;
     width: 573px;
     height: 200px;
-    padding: 32px ;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.sub-dtls4 {
+    width: 573px;
+    height: 200px;
+    padding: 32px;
     background: rgba(251, 181, 99, 0.05);
     margin-top: 24px;
     margin-left: 250px;
 }
 
+/* details section end */
 
+/* deals section */
+
+.Deals-1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Deals-2 {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+
+.Deals-3 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Deals4-main {
+    background-image: url(Images/Group\ 39.png);
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 500px;
+    padding-top: 60px;
+    padding-bottom: 56px;
+    border-radius: 10px;
+}
+
+.dlsicon {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 52px;
+    gap: 20px;
+}
+
+.dls {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    margin-left: 535px;
+    margin-top: 60px;
+}
+
+.deals5-h {
+    color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.deals5-p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 100px;
+}
+
+.deals5-h4 {
+    color: #FF5400;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 16px;
+
+}
+.price-btn{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size:1.4rem;
+font-weight: 800;
+border: none;
+padding: 14px 24px;
+margin-left: 100px;
+margin-top: 20px;
+
+}
+.dls1{
+}
 
 @media screen and (max-width: 600px) {
     header {
@@ -286,77 +377,78 @@ background: rgba(41, 206, 246, 0.05);
 
     .main-navarea,
     .header-sbox,
-    .our-pprl2 {
-        flex-direction: column;
-
-    }
-
-    .cyd-container {
-        width: 335px;
-        height: 176px border-radius: 16px;
-    }
-
-    .main-navarea {
-        align-items: center;
-
-    }
-
-    .header-container {
-        height: 100%;
-        padding-bottom: 30px;
-
-    }
-
-    .header-sbox {
-        height: 22vh;
-    }
-
-    .btn-primary {
-        text-align: center;
-        padding-left: 80px;
-    }
-
     .our-pprl2,
-    .pprl-title-h,
-    .pprl-title>ul>li {
-        width: 100%;
-        margin: 0px;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
+    {
+    flex-direction: column;
 
-    .our-pplr {
-        width: 100%;
-    }
+}
 
-    .our-pprl2 {
-        position: absolute;
-        width: 100%;
-        margin-left: -180px;
-        margin-top: 200px;
+.cyd-container {
+    width: 335px;
+    height: 176px border-radius: 16px;
+}
 
-    }
+.main-navarea {
+    align-items: center;
 
-    .pprl-title {
-        margin-top: 150px;
-    }
+}
 
-    .row>img {
-        height: auto;
-        width: auto;
-    }
+.header-container {
+    height: 100%;
+    padding-bottom: 30px;
 
-    .cyd-container>img {
-        width: 100%;
-        height: 100%;
-    }
+}
 
-    .row>div {
-        flex: 1;
-    }
+.header-sbox {
+    height: 22vh;
+}
 
-    .row>img {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.btn-primary {
+    text-align: center;
+    padding-left: 80px;
+}
+
+.our-pprl2,
+.pprl-title-h,
+.pprl-title>ul>li {
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.our-pplr {
+    width: 100%;
+}
+
+.our-pprl2 {
+    position: absolute;
+    width: 100%;
+    margin-left: -180px;
+    margin-top: 200px;
+
+}
+
+.pprl-title {
+    margin-top: 150px;
+}
+
+.row>img {
+    height: auto;
+    width: auto;
+}
+
+.cyd-container>img {
+    width: 100%;
+    height: 100%;
+}
+
+.row>div {
+    flex: 1;
+}
+
+.row>img {
+    grid-template-columns: repeat(1, 1fr);
+}
 }
