@@ -56,12 +56,9 @@ header {
 }
 .navarea>ul>li>a:hover{
     background-color: #FF5400;
-    padding: 5px;
+    padding: 5px 8px 5px 8px;
     border-radius: 5px;
     color: #FFF;
-}
-.header-container{
-   
 }
 
 .header-container {
@@ -145,6 +142,10 @@ select {
     padding: 16px 65px 16px 65px;
 
 }
+.btn-primary:hover{
+    background-color: #131318;
+    color: #FFF;
+}
 
 /* header section end */
 /* main section starts */
@@ -169,6 +170,9 @@ main {
     color: #131318;
     font-size: 2.8rem;
     font-weight: 800;
+}
+.pprl-title-h:hover{
+    color: #FF5400;
 }
 
 
